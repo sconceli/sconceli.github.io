@@ -1,0 +1,52 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(mountains.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    color: white;
+}
+
+table, th, td {
+    border: solid 0.1rem silver;
+}
+
+:root {
+    --summary-color: cyan;
+    --even: green;
+    --odd: orange;
+}
+
+a:link {
+    color: goldenrod;
+}
+
+a:visited {
+    color: silver;
+}
+
+tr:nth-child(even) {
+    background-color: var(--even);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--odd);
+}
+
+#summary {
+    font-weight: bold;
+    color: var(--summary-color);
+}
+
+.italicize {
+    font-style: italic;
+}
+
+.border {
+    padding: 3rem;
+    border: 0.75rem ridge mintcream;
+}
