@@ -15,6 +15,10 @@ table, th, td {
     border: solid 0.1rem silver;
 }
 
+th {
+    background-color: var(--even);
+}
+
 :root {
     --summary-color: cyan;
     --even: green;
