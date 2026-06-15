@@ -1,3 +1,9 @@
+:root {
+    --summary-color: cyan;
+    --even: green;
+    --odd: orange;
+}
+
 body {
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -17,12 +23,6 @@ table, th, td {
 
 th {
     background-color: var(--even);
-}
-
-:root {
-    --summary-color: cyan;
-    --even: green;
-    --odd: orange;
 }
 
 a:link {
